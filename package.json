@@ -12,6 +12,9 @@
     "tailwindcss": "^3.3.3",
     "web-vitals": "^2.1.4"
   },
+  "engines": {
+    "node": "16.14.2"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "npm i && react-scripts build",
