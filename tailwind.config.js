@@ -4,7 +4,7 @@ module.exports = {
     theme: {
         extend: {},
     },
-    plugins: [require("daisyui")],
+    plugins: [process.REACT_APP_PRODUCTION ? require("daisyui") : ""],
     daisyui: {
         themes: ["light", "dark", "corporate"],
     },
